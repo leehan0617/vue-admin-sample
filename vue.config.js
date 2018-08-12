@@ -16,10 +16,8 @@ module.exports = {
     ]
     if (config.mode === 'production') {
       // 운영환경일때
-      console.log('지금은 운영환경')
     } else {
       // 기타환경 (ex: 개발,테스트..)
-      console.log('지금은 개발환경')
     }
   },
   devServer: {
