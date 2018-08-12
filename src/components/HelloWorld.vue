@@ -36,6 +36,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  mounted () {
+    console.log('mounted')
+    console.log($('.hello').html())
+    console.log(moment())
   }
 }
 </script>
